@@ -1,10 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import FormularioCadastro from "./components/FormularioCadastro/FomularioCadastro";
 
-function App() {
-  return (
-    <h1>Formulario</h1>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Formulario</h1>
+        <FormularioCadastro />
+      </div>
+    );
+  }
 }
 
 export default App;
